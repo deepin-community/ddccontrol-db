@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<monitor name="Dell S2721D (DP)" init="standard">
+	<include file="DELA19A"/>
+</monitor>

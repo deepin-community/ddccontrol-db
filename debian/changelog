@@ -1,5 +1,253 @@
-template-repository (1.0-1) unstable; urgency=medium
+ddccontrol-db (20240304-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Barak A. Pearlmutter <bap@debian.org>  Fri, 08 Mar 2024 21:46:47 +0000
+
+ddccontrol-db (20240209-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Wed, 14 Feb 2024 09:48:46 +0000
+
+ddccontrol-db (20231004-2) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Fri, 06 Oct 2023 11:23:45 +0100
+
+ddccontrol-db (20230911-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Mon, 11 Sep 2023 20:02:16 +0100
+
+ddccontrol-db (20230821-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Thu, 24 Aug 2023 14:58:59 +0100
+
+ddccontrol-db (20230727-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Fri, 28 Jul 2023 21:45:11 +0100
+
+ddccontrol-db (20230627-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Tue, 04 Jul 2023 09:44:37 +0100
+
+ddccontrol-db (20230424-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Sat, 29 Apr 2023 10:10:37 +0100
+
+ddccontrol-db (20230328-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Fri, 31 Mar 2023 14:16:46 +0100
+
+ddccontrol-db (20230223-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Sun, 26 Feb 2023 19:41:07 +0000
+
+ddccontrol-db (20230124-1) unstable; urgency=medium
+
+  * New upstream version
+  * Update standards version to 4.6.2, no changes needed.
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Wed, 01 Feb 2023 20:48:55 -0000
+
+ddccontrol-db (20220903-2) unstable; urgency=medium
+
+  * Switch debian/watch to upstream git repo tags
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Mon, 19 Dec 2022 20:52:14 +0000
+
+ddccontrol-db (20220903-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Tue, 06 Sep 2022 08:40:42 +0100
+
+ddccontrol-db (20220720-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Mon, 25 Jul 2022 17:03:14 +0100
+
+ddccontrol-db (20220629-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Thu, 14 Jul 2022 22:10:36 +0100
+
+ddccontrol-db (20220626-1) unstable; urgency=medium
+
+  * New upstream version
+  * Bump policy
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Mon, 30 May 2022 11:51:32 +0100
+
+ddccontrol-db (20220414-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Sun, 24 Apr 2022 11:42:29 +0100
+
+ddccontrol-db (20220406-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Mon, 11 Apr 2022 10:48:22 +0100
+
+ddccontrol-db (20220216-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Fri, 18 Feb 2022 09:19:04 +0000
+
+ddccontrol-db (20220119-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Sun, 23 Jan 2022 09:54:18 +0000
+
+ddccontrol-db (20220117-1) unstable; urgency=medium
+
+  * Update packaging repo in debian/control
+  * New upstream release
+  * Simplify debian/watch file
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Mon, 17 Jan 2022 19:01:18 +0000
+
+ddccontrol-db (20210812-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Thu, 14 Oct 2021 10:44:20 +0100
+
+ddccontrol-db (20210804-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Barak A. Pearlmutter ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.6.0, no changes needed.
+  * Update watch file format version to 4.
+  * New upstream release
+  * Take over maintenance of package (closes: #980399)
+    - thanks to Miroslav Kravec for doing a great job with it for so long
+  * Rules-Requires-Root: no
+  * Swizzle packaging repo pointer to salsa
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Tue, 28 Sep 2021 10:20:08 +0100
+
+ddccontrol-db (20190826-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control: update standards to 4.4.0, set Multi-Arch to foreign
+  * debian/copyright: convert to machine-readable copyright file
+
+ -- Miroslav Kravec <kravec.miroslav@gmail.com>  Mon, 26 Aug 2019 20:08:05 +0200
+
+ddccontrol-db (20180602-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/changelog: remove trailing newline
+
+ -- Miroslav Kravec <kravec.miroslav@gmail.com>  Sun, 03 Jun 2018 08:58:26 +0200
+
+ddccontrol-db (20171217-2) unstable; urgency=medium
+
+  * debian/changelog: fix file-contains-trailing-whitespace
+  * debian/compat, debian/control: bump debhelper to 11
+  * debian/control: update standards to 4.1.4
+  * debian/copyright: fix copyright-refers-to-symlink-license
+  * debian/rules: fix debian-rules-is-dh_make-template
+
+ -- Miroslav Kravec <kravec.miroslav@gmail.com>  Sun, 29 Apr 2018 11:57:16 +0200
+
+ddccontrol-db (20171217-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Miroslav Kravec <kravec.miroslav@gmail.com>  Sun, 17 Dec 2017 10:48:54 +0100
+
+ddccontrol-db (20170716-1) unstable; urgency=medium
+
+  * debian/compat: increased compatibility level to 10
+  * debian/control:
+    * updated homepage to GitHub
+    * updated VCS URLs to GitHub
+    * updated build depends to match debhelper compatibility level
+    * removed autotools-dev dependency (not needed since compatibility level 10)
+  * debian/copyright: added Roberto C. Sanchez
+  * debian/rules:
+    * generated new using dh_make (version 2.201608)
+    * modified auto-configuration to use autogen.sh
+  * debian/watch: watch GitHub project releases
+
+ -- Miroslav Kravec <kravec.miroslav@gmail.com>  Sun, 10 Dec 2017 13:07:11 +0100
+
+ddccontrol-db (20061014-4) unstable; urgency=low
+
+  * QA upload
+  * Removed useless architecture specification in Recommends on ddccontrol
+    (closes: #581301)
+  * Added dependency on ${misc:Depends}.
+
+ -- Ralf Treinen <treinen@debian.org>  Wed, 12 May 2010 21:27:47 +0200
+
+ddccontrol-db (20061014-3) unstable; urgency=low
+
+  * Orphaning this package. Maintainer set to Debian QA Group.
+
+ -- Roberto C. Sanchez <roberto@connexer.com>  Thu, 10 Sep 2009 20:50:07 -0400
+
+ddccontrol-db (20061014-2) unstable; urgency=low
+
+  * Updated to debhelper compatibility level 5.
+  * Acknowledge NMU, thanks to Amaya.
+  * debian/watch: Switch to Debian QA's SourceForge redirector
+  * debian/control: Add Vcs-Browser and Vcs-Cvs fields.
+  * debian/rules: placate lintian by properly calling '$(MAKE) distclean'
+  * Move rules to binary-indep target since package is arch: all
+  * Update to Standards-Version 3.7.3 (no changes required)
+
+ -- Roberto C. Sanchez <roberto@connexer.com>  Sat, 17 May 2008 23:17:53 -0400
+
+ddccontrol-db (20061014-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * debian/control: Add arches to the Recommends field as per release goal.
+    (Closes: #436649).
+
+ -- Amaya Rodrigo Sastre <amaya@debian.org>  Mon, 31 Mar 2008 01:22:12 +0200
+
+ddccontrol-db (20061014-1) unstable; urgency=low
+
+  * New upstream release
+  * Update maintainer email address
+  * Update watch file compatibility
+  * Added a Recommends for ddccontrol
+
+ -- Roberto C. Sanchez <roberto@connexer.com>  Sat, 14 Oct 2006 08:23:00 -0400
+
+ddccontrol-db (20060730-1) unstable; urgency=low
+
+  * Initial Release.
+  * Resolve ITP (closes: #322978)
+
+ -- Roberto C. Sanchez <roberto@familiasanchez.net>  Sun, 30 Jul 2006 21:53:16 -0400
